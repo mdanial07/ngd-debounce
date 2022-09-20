@@ -38,6 +38,6 @@ Use ngd-debounce directive like this in your html.
 
 [Muhammad Danial](https://mdanial.firebaseapp.com/contact)
 
-## Licence
+<!-- ## Licence
 
-This project is licensed under the MIT license. See the [LICENSE](LICENSE) file for more info.
+This project is licensed under the MIT license. See the [LICENSE](LICENSE) file for more info. -->
