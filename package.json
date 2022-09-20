@@ -1,6 +1,18 @@
 {
   "name": "ngd-debounce",
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "keywords": [
+    "debounce",
+    "debouncing",
+    "ng-debounce",
+    "ngd",
+    "delay",
+    "angular-13-debounce"
+  ],
+  "author": "Muhammad Danial",
+  "repository": {
+    "url": "https://github.com/mdanial07/ngd-debounce"
+  },
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
