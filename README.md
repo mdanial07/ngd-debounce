@@ -1,27 +1,43 @@
-# NgdDebounce
+[![npm version](https://badge.fury.io/js/ngd-debounce.svg)](https://www.npmjs.com/package/ngd-debounce)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.0.
+# ngd-debounce
 
-## Development server
+***ngd-debounce*** is an Angular directive that adds a debounce (delay time) to your input fields.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+It delays(debounce) the start of a function call after every keyup event.
 
-## Code scaffolding
+## Installation:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+```bash
+npm i ngd-debounce --save
+```
 
-## Build
+## Use Example:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Add the declaration to your @NgModule:
 
-## Running unit tests
+```typescript
+import {NgdDebounceModule} from 'ngd-debounce';
+...
+@NgModule({
+  ...
+  Imports: [
+    NgdDebounceModule
+  ]
+  ...
+})
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Use ngd-debounce directive like this in your html.
 
-## Running end-to-end tests
+```
+<input debounce (debounce)="myFunction($event)" [time]="1000" name="Your input">
+```
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Author
 
-## Further help
+[Muhammad Danial](https://mdanial.firebaseapp.com/contact)
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Licence
+
+This project is licensed under the MIT license. See the [LICENSE](LICENSE) file for more info.
